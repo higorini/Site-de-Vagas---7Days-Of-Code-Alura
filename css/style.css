@@ -1,0 +1,90 @@
+@import url(/css/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --cinza-escuro: #3A404E;
+    --cinza-claro: #667085;
+    --cinza: #101828;
+    --marrom: #8E2424;
+    --branco: #ffffff;
+    --cor-de-fundo-botoes: rgba(142, 36, 36, 0.05);
+    --cor-das-bordas: #EAECF0;
+    --cor-de-fundo-secao: rgba(196, 25, 25, 0.03);
+    --cor-fundo-rodape: #F9FAFB;
+    --cor-da-sombra: rgba(16, 24, 40, 0.05);
+    --borda-input: #D0D5DD;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+.header__itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__tittle {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0.5em;
+}
+
+.header__menu {
+    display: flex;
+    margin: 0 15em 0 1em;
+}
+
+.list__item {
+    margin: 0 1em;
+}
+
+.header__list {
+    display: flex;
+    margin: 2em;
+}
+
+.header__link {
+    text-decoration: none;
+    color: var(--cinza-claro);
+}
+
+.button__signup {
+    background-color: var(--marrom);
+    color: var(--branco);
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+
+
+.about-us {
+    text-align: center;
+    margin: 3em;
+}
+
+.subtittle__about-us {
+    margin-bottom: 1.5em;
+    color: var(--marrom);
+    font-weight: 600;
+}
+
+.tittle__about-us {
+    margin-bottom: 1em;
+    color: var(--cinza);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.text__about-us {
+    margin: 0 12em;
+    color: var(--cinza-claro);
+    font-size: 20px;
+    font-weight: 400;
+}
