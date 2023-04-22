@@ -3,17 +3,17 @@
 
 
 :root {
-    --cinza-escuro: #3A404E;
-    --cinza-claro: #667085;
-    --cinza: #101828;
-    --marrom: #8E2424;
-    --branco: #ffffff;
-    --cor-de-fundo-botoes: rgba(142, 36, 36, 0.05);
-    --cor-das-bordas: #EAECF0;
-    --cor-de-fundo-secao: rgba(196, 25, 25, 0.03);
-    --cor-fundo-rodape: #F9FAFB;
-    --cor-da-sombra: rgba(16, 24, 40, 0.05);
-    --borda-input: #D0D5DD;
+    --dark-grey: #3A404E;
+    --light-grey: #667085;
+    --grey: #101828;
+    --brown: #8E2424;
+    --white: #ffffff;
+    --background-button: rgba(142, 36, 36, 0.05);
+    --border-color: #EAECF0;
+    --section-color: rgba(196, 25, 25, 0.03);
+    --footer-color: #F9FAFB;
+    --shadow-color: rgba(16, 24, 40, 0.05);
+    --input-border: #D0D5DD;
 }
 
 body {
@@ -53,12 +53,12 @@ body {
 
 .header__link {
     text-decoration: none;
-    color: var(--cinza-claro);
+    color: var(--light-grey);
 }
 
 .button__signup {
-    background-color: var(--marrom);
-    color: var(--branco);
+    background-color: var(--brown);
+    color: var(--white);
     padding: 10px 18px;
     border-radius: 5px;
 }
@@ -71,20 +71,20 @@ body {
 
 .subtittle__about-us {
     margin-bottom: 1.5em;
-    color: var(--marrom);
+    color: var(--brown);
     font-weight: 600;
 }
 
 .tittle__about-us {
     margin-bottom: 1em;
-    color: var(--cinza);
+    color: var(--grey);
     font-size: 48px;
     font-weight: 600;
 }
 
 .text__about-us {
     margin: 0 12em;
-    color: var(--cinza-claro);
+    color: var(--light-grey);
     font-size: 20px;
     font-weight: 400;
 }
