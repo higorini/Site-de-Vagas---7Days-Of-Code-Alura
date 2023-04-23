@@ -88,3 +88,38 @@ body {
     font-size: 20px;
     font-weight: 400;
 }
+
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3em;
+}
+
+.info__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+}
+
+.info__div-number {
+    color: var(--brown);
+    font-size: 48px;
+    font-weight: 600;
+    padding: 0.2em 0;
+}
+
+.info__div-subtittle {
+    color: var(--grey);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0.2em 0;
+}
+
+.info__div-text {
+    color: var(--light-grey);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0.4em 0;
+}
