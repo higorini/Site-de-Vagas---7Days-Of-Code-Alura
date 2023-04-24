@@ -123,3 +123,62 @@ body {
     font-weight: 400;
     padding: 0.4em 0;
 }
+
+.people {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3em;
+}
+
+.people__div-item {
+    padding: 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.people__div-item:first-child {
+    padding: 0;
+}
+
+.people__div-item:nth-child(2) {
+    padding-bottom: 0.5em;
+}
+
+.people__subtext {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8E2424;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: 4px 12px;
+}
+
+.people__tittle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #101828;
+}
+
+.people__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
+}
+
+.people__div img {
+    width: 81em;
+}
